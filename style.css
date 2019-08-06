@@ -27,7 +27,7 @@ header{
   align-items:center;
 }
 
-header*{
+header *{
   display: inline;
 
 }
