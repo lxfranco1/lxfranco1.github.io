@@ -8,6 +8,7 @@ body {
     font-family: sans-serif;
     margin-top: 80px;
     padding: 30px;
+    background-image: url('https://codetheweb.blog/assets/img/posts/style-a-navigation-bar-css/background.jpg');
 
     /* Full height */
     height: 100%;
