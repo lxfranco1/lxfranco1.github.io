@@ -1,1 +1,52 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Home</title>
+
+            <!-- url_for links the style sheet with the html in python -->
+    	    <link rel="stylesheet" href="{{ url_for('static', filename='css/home_style.css') }}"/>
+
+            <!-- this is the only code I got to work for setting the background -->
+            <style>
+                body {
+                    background-image: url(static/images/gradient_pink-blue.jpg);
+                    background-size: 150%;
+                    background-repeat: no-repeat;
+                    line-height: 50px;
+                }
+            </style>
+    </head>
+    <body>
+        <h1 id="header"> Hippodrome </h1>
+        <h1 id="test"> test </h1>
+        <iframe src="" id="videoFrame" width="560" height="315" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+        <button id="nextSong">Next Song</button>
+
+    </body>
+
+    <script>
+        const videoIdList = {{ video_ids | tojson }};
+        var videoUrlList = []
+        const urlStr = "https://www.youtube.com/embed/"
+        console.log(videoIdList)
+        var arrayLength = videoIdList.length;
+        for (var i = 0; i < arrayLength; i++) {
+            console.log(videoIdList[i]);
+            newUrlStr = urlStr + videoIdList[i];
+            console.log(newUrlStr);
+            videoUrlList[i] = newUrlStr;
+        }
+
+        var queue_count = 0;
+        if (queue_count < videoUrlList.length) {
+            nextSong.addEventListener("click", function() {
+                document.getElementById("videoFrame").src = videoUrlList[queue_count];
+                queue_count = queue_count + 1;
+            });
+        }
+    </script>
+
+
+</html>
