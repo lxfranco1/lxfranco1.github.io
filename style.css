@@ -8,6 +8,16 @@ body {
     font-family: sans-serif;
     margin-top: 80px;
     padding: 30px;
+    background-image: "parallax.jpg";
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 main {
@@ -40,19 +50,7 @@ body,html{
 
 }
 
-.parallax {
-  /* The image used */
-  background-image: "parallax.jpg";
 
-  /* Full height */
-  height: 100%;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 header li a {
     color: black;
