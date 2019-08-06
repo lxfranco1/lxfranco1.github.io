@@ -1,28 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>Home</title>
+<html>
+<body background ="gradient_pink-blue.jpg"
+<body>
 
-            <!-- url_for links the style sheet with the html in python -->
-    	    <link rel="stylesheet" href="{{ url_for('static', filename='css/home_style.css') }}"/>
+<h1>This is heading 1</h1>
+<h2>This is heading 2</h2>
+<h3>This is heading 3</h3>
+<h4>This is heading 4</h4>
+<h5>This is heading 5</h5>
+<h6>This is heading 6</h6>
 
-            <!-- this is the only code I got to work for setting the background -->
-            <style>
-                body {
-                    background-image: url(./gradient_pink-blue.jpg);
-                    background-size: 150%;
-                    background-repeat: no-repeat;
-                    line-height: 50px;
-                }
-            </style>
-    </head>
-    <body>
-        <h1 id="header"> Hippodrome </h1>
-        <h1 id="test"> test </h1>
-        <iframe src="" id="videoFrame" width="560" height="315" frameborder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-        </iframe>
-        <button id="nextSong">Next Song</button>
-
-    </body>
+</body>
 </html>
