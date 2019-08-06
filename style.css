@@ -1,44 +1,42 @@
-div.scrollmenu {
-  background-color: #333;
-  overflow: auto;
-  white-space: nowrap;
+header img{
+  height: 80px;
+  margin-left:40px;
 }
 
-div.scrollmenu a {
-  display: inline-block;
-  color: white;
-  text-align: center;
-  padding: 14px;
-  text-decoration: none;
+body{
+  height: 125vh;
+  background-image: url('https://codetheweb.blog/assets/img/posts/style-a-navigation-bar-css/background.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top:80px;
+    padding:30px;
 }
 
-div.scrollmenu a:hover {
-  background-color: #777;
+main{
+  color:white;
 }
 
-.topnav {
-  background-color: #333;
-  overflow: hidden;
+header{
+  background-color: white;
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  height:80px;
+  display:flex;
+  align-items:center;
 }
 
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+header*{
+  display: inline;
+
 }
 
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #FFF;
-  color: black;
+header li{
+  margin:20px;
 }
 
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #4CAF50;
-  color: white;
+header li a{
+  color:black;
+  text-decoration:none;
 }
