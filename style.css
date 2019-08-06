@@ -32,6 +32,8 @@ header * {
 
 header li {
     margin: 20px;
+    display: inline;
+
 }
 
 header li a {
