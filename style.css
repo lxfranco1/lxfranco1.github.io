@@ -12,11 +12,11 @@ body {
 }
 
 main {
-    color: white;
+    color: LightGray;
 }
 
 header {
-    background-color: DodgerBlue;
+    background-color: SlateBlue;
     position: fixed;
     top: 0;
     left: 0;
