@@ -1,6 +1,6 @@
 header img {
     height: 80px;
-    margin-left: 3px;
+    margin-left: 10px;
 }
 body {
     height: 125vh;
@@ -104,8 +104,8 @@ header li a {
 }
 
 #slider figure {
-	position: relative
-	width: 300%;
+	position: relative;
+	width: 500%;
 	margin: 0;
 	left: 0;
 	text-align: left;
