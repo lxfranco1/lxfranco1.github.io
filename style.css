@@ -8,7 +8,7 @@ body {
     font-family: sans-serif;
     margin-top: 80px;
     padding: 30px;
-    background-image: url("parallax.png");
+    background-image: 'parallax.png';
 
     /* Full height */
     height: 100%;
