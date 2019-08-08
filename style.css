@@ -1,6 +1,5 @@
 header img {
     height: 80px;
-    margin-left:0px
 }
 body {
     height: 125vh;
@@ -19,7 +18,7 @@ html {
 }
 body {
     margin: 0;
-    font-size: 50px;
+    font-size: 15px;
     font-family: sans-serif
     color: #ffffff;
     height: 100vh;
