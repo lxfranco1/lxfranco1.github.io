@@ -1,6 +1,5 @@
 header img {
     height: 80px;
-    margin-left: 1px;
 }
 body {
     height: 125vh;
@@ -16,6 +15,7 @@ main {
 }
 
 header {
+  margin-left: 90px;
     background-color: DodgerBlue;
     position: fixed;
     top: 0;
