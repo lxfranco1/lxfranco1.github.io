@@ -20,7 +20,7 @@ html {
 
 header {
     z-index:3;
-    background-color: #505050;
+    background-color: black;
     position: fixed;
     top: 0;
     left: 0;
