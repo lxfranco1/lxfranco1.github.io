@@ -19,8 +19,8 @@ html {
 }
 body {
     margin: 0;
-    font-size: 30px;
-    font-family: arial
+    font-size: 50px;
+    font-family: sans-serif
     color: #ffffff;
     height: 100vh;
     perspective: 1px;
@@ -41,7 +41,7 @@ body {
     height: 50vh;
     top:0;
     left:0;
-    margin-left:100px;
+    background-size:100% 100%;
     background-image: url("image0.jpg");
     background-repeat: no-repeat;
     position: absolute;
@@ -52,7 +52,9 @@ body {
     width: 100vw;
     height:100vh;
     padding-top:20vh;
-    background-image: url("/trianglify2.png");
+    background-image: url("image3.png");
+    background-size:100% 100%;
+    background-repeat: no-repeat;
     z-index: 2;
     position: relative;
 }
@@ -69,7 +71,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    height: 70px;
+    height: 80px;
     display: flex;
     align-items: center;
     box-shadow:0 0 25px 0 black;
