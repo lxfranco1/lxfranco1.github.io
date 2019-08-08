@@ -1,6 +1,6 @@
 header img {
     height: 80px;
-    margin-left:100px
+    margin-left:10px
 }
 body {
     height: 125vh;
@@ -33,7 +33,7 @@ li {
 }
 
 header li {
-    margin: 10px;
+    margin: 100px;
 
 
 
