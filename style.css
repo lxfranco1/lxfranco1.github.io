@@ -41,7 +41,9 @@ body {
     height: 50vh;
     top:0;
     left:0;
+    margin-left:100px;
     background-image: url("image0.jpg");
+    background-repeat: no-repeat;
     position: absolute;
     z-index: -1;
     transform:translateZ(-1px) scale(2);
