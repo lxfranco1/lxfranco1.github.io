@@ -1,20 +1,65 @@
 header img {
     height: 80px;
-    margin-left:10px
+    margin-left:0px
 }
 body {
     height: 125vh;
     background-size: cover;
     font-family: sans-serif;
     margin-top: 80px;
-    padding: 50px;
+    padding: 0px;
     background-repeat:no-repeat
 }
 
 main {
     color: white;
 }
-
+html {
+    overflow: hidden;
+}
+body {
+    margin: 0;
+    font-size: 26px;
+    font-family: arial
+    color: #ffffff;
+    height: 100vh;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+.parallax-wrapper {
+    width: 100vw;
+    height:100vh;
+    padding-top:20vh;
+    box-sizing: border-box;
+    transform-style: preserve-3d;
+}
+.parallax-wrapper::before {
+    content:"";
+    width: 100%;
+    height: 50vh;
+    top:0;
+    left:0;
+    background-image: url("image0.jpg");
+    position: absolute;
+    z-index: -1;
+    transform:translateZ(-1px) scale(2);
+}
+.regular-wrapper {
+    width: 100vw;
+    height:100vh;
+    padding-top:20vh;
+    background-image: url("/trianglify2.png");
+    z-index: 2;
+    position: relative;
+}
+.content {
+    margin: 0 auto;
+    padding: 10px;
+    width: 300px;
+    height:100px;
+}
 header {
 
     background-color: DodgerBlue;
@@ -22,7 +67,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    height: 80px;
+    height: 70px;
     display: flex;
     align-items: center;
     box-shadow:0 0 25px 0 black;
@@ -34,7 +79,7 @@ li {
 
 header li {
 
-
+margin:20px;
 
 }
 
