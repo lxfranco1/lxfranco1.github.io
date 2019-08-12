@@ -20,7 +20,7 @@ html {
 
 header {
     z-index:3;
-    background-color: black;
+    background-color: #505050;
     position: fixed;
     top: 0;
     left: 0;
@@ -84,6 +84,7 @@ body,html{margin:0;padding:0;}
 }
 
 .parallax::after {
+  /* Display and position the pseudo-element */
   content: " ";
   position: absolute;
   top: 0;
@@ -91,7 +92,9 @@ body,html{margin:0;padding:0;}
   bottom: 0;
   left: 0;
 
-
+  /* Move the pseudo-element back away from the camera,
+   * then scale it back up to fill the viewport.
+   * Because the pseudo-element is further away, it appears to move more slowly, like in real life. */
   transform: translateZ(-1px) scale(1.5);
   /* Force the background image to fill the whole element. */
   background-size: 100%;
@@ -99,21 +102,20 @@ body,html{margin:0;padding:0;}
   z-index: -1;
 }
 
+/* The styling for the static div. */
 .static {
-  height: 350px;
   background: #505050;
 }
 
+/* Sets the actual background images to adorable kitties. This part is crucial. */
 .bg1::after {
   background-image: url('image0.jpg');
   background-repeat: no-repeat;
-  height:150%;
-
 }
 
 .bg2::after {
   background-image: url('image1.jpg');
-  height:150%;
+  height:100%;
   width:100%
   background-repeat: no-repeat;
 
@@ -121,7 +123,7 @@ body,html{margin:0;padding:0;}
 
 .bg3::after {
   background-image: url('image3.jpg');
-  height:150%;
+  height:100%;
   width:100%
   background-repeat: no-repeat;
 
