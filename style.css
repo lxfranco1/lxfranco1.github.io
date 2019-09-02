@@ -201,7 +201,7 @@ font-size:20px;
 
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: dodgerblue;
+  background-color: #009999;
 }
 
 /* Show the dropdown menu on hover */
