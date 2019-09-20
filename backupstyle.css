@@ -1,13 +1,13 @@
 header img {
-    height: 9.7vh;
+    height: 80px;
 }
 body {
     height: 100vh;
     background-size: cover;
     background-color:#505050;
     font-family: sans-serif;
-    margin-top: 9.7vh;
-    padding: 0vh;
+    margin-top: 80px;
+    padding: 0px;
     background-repeat:no-repeat
 }
 
@@ -28,7 +28,7 @@ header {
     height: 80px;
     display: flex;
     align-items: center;
-    box-shadow:0 0 3.045vh 0 black;
+    box-shadow:0 0 25px 0 black;
 }
 
 li {
@@ -37,7 +37,7 @@ li {
 
 header li {
 
-margin:2.43vh;
+margin:20px;
 
 }
 
@@ -67,7 +67,7 @@ body,html{margin:0;padding:0;}
   /* Enable scrolling on the page. */
   overflow-y: auto;
   /* Set the perspective to 2px. This is essentailly the simulated distance from the viewport to transformed objects.*/
-  perspective: .2436vh;
+  perspective: 2px;
 }
 
 .section {
@@ -81,7 +81,7 @@ body,html{margin:0;padding:0;}
   align-items: center;
   justify-content: center;
   color: white;
-  text-shadow: 0 0 .609vh #000;
+  text-shadow: 0 0 5px #000;
 }
 
 .parallax::after {
