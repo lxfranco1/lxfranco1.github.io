@@ -1,6 +1,10 @@
 @media only screen and (max-width:475px){
 .navbar{
  padding:0.5rem 2rem;
+ min-width: 50px;
+ width: 10vh;
+
+
 }
 .navbar-nav{
     flex-flow:column nowrap;
@@ -70,11 +74,7 @@ margin:0;
 
 
 
-header li a {
-    color: white;
-    text-decoration: none;
-    width:100%
-}
+
 
 body,html{margin:0;padding:0;}
 
@@ -109,8 +109,9 @@ font-size:20px;
   font-size: 16px;
   color: black;
   text-align: center;
-  padding: 3.7vh 5vh;
+  padding: 3.7vh 2.5vh;
   text-decoration: none;
+
 }
 
 /* The dropdown container */
@@ -170,18 +171,4 @@ font-size:20px;
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
-}
-
-
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-}
-
-/* Clear floats after image containers */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
 }
