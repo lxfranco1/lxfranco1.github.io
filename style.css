@@ -61,7 +61,7 @@ li {
 
 header li {
 
-margin:20px;
+margin:30px;
 width:100%
 }
 
@@ -80,9 +80,10 @@ body,html{margin:0;padding:0;}
 
 .centered {
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-shadow: 2px 2px #782F40;
 }
 
 .container {
