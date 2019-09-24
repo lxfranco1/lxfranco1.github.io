@@ -80,9 +80,9 @@ body,html{margin:0;padding:0;}
 
 .centered {
   position: relative;
-  top: 20%;
+  top: 50%;
   left: 50%;
-  transform: translate(-50%,-900%);
+  transform: translate(-50%,-50%);
 
 }
 
@@ -165,7 +165,7 @@ font-size:20px;
 
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #009999;
+  background-color: #782F40;
 }
 
 /* Show the dropdown menu on hover */
