@@ -86,6 +86,8 @@ body,html{margin:0;padding:0;}
   text-shadow: 2px 2px #782F40;
 }
 
+
+
 .container {
 
   position: fixed;
@@ -259,6 +261,24 @@ font-size:20px;
   -webkit-animation-duration: 2s;
   animation-name: fade;
   animation-duration: 2s;
+}
+
+.column {
+  align-items:center;
+  padding-left:3vh;
+  float: left;
+  width: 33.33%;
+  padding: .25vh;
+  display:inline-block;
+}
+
+.row::after {
+  text-align:center;
+  padding-left:3vh;
+
+  content: "";
+  clear: both;
+  display: table;
 }
 
 @-webkit-keyframes fade {
