@@ -1,8 +1,9 @@
-var slideIndex = 1;
+var slideIndex = 0;
 showSlides(slideIndex);
 
 // Next/previous controls
 function plusSlides(n) {
+
   showSlides(slideIndex += n);
 }
 
@@ -11,7 +12,7 @@ function currentSlide(n) {
   showSlides(slideIndex = n);
 }
 
-function showSlides(n) {
+function showSlides() {
   var i;
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
@@ -25,4 +26,6 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
+  setTimeout(showSlides(), 2000); // Change image every 2 seconds
+
 }
